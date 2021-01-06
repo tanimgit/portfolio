@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin:0px;
 
 }
 h1{
@@ -12,6 +13,12 @@ color:orange;
 
 }
 
+
+.orange-highlights{
+    color:orange;
+    
+    }
+
 .halfwidth{
     width: 40%;
     float:left;
@@ -21,4 +28,68 @@ color:orange;
 
 .halfwidth img{
     width:100%
+}
+
+.top-banner{
+    background-image: url('images/top-banner.png');
+    background-repeat: no-repeat;
+}
+
+section{
+height:500px;
+padding-bottom: 100px;
+
+}
+
+.linkbutton{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon, tomato);
+    padding: 10px 20px;
+    color:white;
+    border-radius: 5px;
+
+}
+
+p{
+    color: dimgray;
+}
+
+.dreamsec{
+    background-image: url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.singexperience{
+
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    height:80%;
+}
+
+#border1{
+    border-left:7px solid;
+    border-image: linear-gradient(180deg ,lightsalmon,tomato);
+    border-image-slice:1;
+}
+
+#border2{
+    border-left:7px solid;
+    border-image: linear-gradient(180deg,purple,blue);
+    border-image-slice:1;
+}
+
+.expe{
+    background-image: url('images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.expe h2{
+    text-align: left;
+}
+
+footer{
+    text-align: center;
 }
