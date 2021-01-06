@@ -6,3 +6,19 @@ h1{
 
     font-size: 40px;
 }
+
+.name-highlights{
+color:orange;
+
+}
+
+.halfwidth{
+    width: 40%;
+    float:left;
+    margin-left:5%;
+    padding:2%;
+}
+
+.halfwidth img{
+    width:100%
+}
